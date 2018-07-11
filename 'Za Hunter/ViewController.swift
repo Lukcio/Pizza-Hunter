@@ -63,12 +63,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: "pin")
         if pinView == nil {
             pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pinView")
-            pinView?.canShowCallout = false
+            pinView?.canShowCallout = true
             pinView?.rightCalloutAccessoryView = UIButton(type: .infoLight)
         } else {
             pinView?.annotation = annotation
         }
         return pinView
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        performSegue(withIdentifier: "ShowLocationDetailsSegue", sender: nil)
     }
 
 }

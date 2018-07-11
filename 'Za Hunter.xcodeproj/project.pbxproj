@@ -12,6 +12,7 @@
 		140936AB20F67E6F0019AA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140936A920F67E6F0019AA8E /* Main.storyboard */; };
 		140936AD20F67E710019AA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140936AC20F67E710019AA8E /* Assets.xcassets */; };
 		140936B020F67E710019AA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140936AE20F67E710019AA8E /* LaunchScreen.storyboard */; };
+		140936B820F687F20019AA8E /* LocationsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140936B720F687F20019AA8E /* LocationsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		140936AC20F67E710019AA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		140936AF20F67E710019AA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		140936B120F67E710019AA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140936B720F687F20019AA8E /* LocationsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				140936A520F67E6F0019AA8E /* AppDelegate.swift */,
-				140936A720F67E6F0019AA8E /* ViewController.swift */,
 				140936A920F67E6F0019AA8E /* Main.storyboard */,
+				140936A720F67E6F0019AA8E /* ViewController.swift */,
+				140936B720F687F20019AA8E /* LocationsDetailViewController.swift */,
 				140936AC20F67E710019AA8E /* Assets.xcassets */,
 				140936AE20F67E710019AA8E /* LaunchScreen.storyboard */,
 				140936B120F67E710019AA8E /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140936A820F67E6F0019AA8E /* ViewController.swift in Sources */,
+				140936B820F687F20019AA8E /* LocationsDetailViewController.swift in Sources */,
 				140936A620F67E6F0019AA8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
